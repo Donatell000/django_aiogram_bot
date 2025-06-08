@@ -21,7 +21,7 @@
 
 #### 1. Клонирование репозитория и переход в папку проекта
 ```bash
-git clone https://github.com/Donatell000/django_aiogram_test.git && cd django_aiogram_test
+git clone https://github.com/Donatell000/django_aiogram_bot.git && cd django_aiogram_bot
 ```
 
 #### 2. Создание файлов окружения  
@@ -92,13 +92,6 @@ make createsuperuser
 Код бота отделён от backend'а и монтируется в свою директорию.
 
 - Все сервисы объединены в единую пользовательскую сеть (django_network) с типом драйвера bridge.
-
----
-
-## Трудности
-
-Не совсем понятна задача "Уведомления через Celery при наступлении даты исполнения таски". \
-Логику я заложил, если дадите более подробную информацию, поправлю.
 
 ---
 
